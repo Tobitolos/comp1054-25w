@@ -13,23 +13,33 @@ to match as closely as you can with the colors
 on the FIRST paint swatch card provided.
 -------------------------------------------------- */
 	#hex div:nth-of-type(1) {
-		background-color: red;
+		background-color: #FFD700;
 	}
 	#hex div:nth-of-type(2) {
-		background-color: orange;
+		background-color: #FFFACD;
 	}
 	#hex div:nth-of-type(3) {
-		background-color: yellow;
+		background-color: #F0E68C;
 	}
 	#hex div:nth-of-type(4) {
-		background-color: limegreen;
+		background-color: #DAA520;
 	}
 /* STEP 2: Set each color in rgba format
 to match as closely as you can with the colors
 on the SECOND paint swatch card provided.
 -------------------------------------------------- */
 	#rgba div:nth-of-type(1) {
-		background-color: red;
+		background-color: rgba(128, 35, 50, 1);
+	}
+	#rgba div:nth-of-type(2) {
+		
+		background-color: rgba(215, 185, 190, 1);
+	}
+	#rgba div:nth-of-type(3) {
+		background-color: rgba(200, 140, 160, 1);
+	}
+		#rgba div:nth-of-type(4) { 
+		background-color: rgb(122, 33, 47);
 	}
 	/* ...and so on... */
 
@@ -37,8 +47,17 @@ on the SECOND paint swatch card provided.
 to match as closely as you can with the colors
 on the THIRD paint swatch card provided.
 -------------------------------------------------- */
-	#hsla div:nth-of-type(1) {
-		background-color: red;
+#hsla div:nth-of-type(1) {
+		background-color: hsl(231, 80%, 23%);
+	}
+	#hsla div:nth-of-type(2) {
+		background-color: hsl(203, 21%, 88%);	
+	}
+	#hsla div:nth-of-type(3) {
+		background-color: hsl(202, 16%, 53%);
+	}
+	#hsla div:nth-of-type(4) {
+		background-color: hsl(233, 45%, 34%);
 	}
 	/* ...and so on... */
 
@@ -50,8 +69,22 @@ produce an exact rendition of the swatch colors on the FOURTH card provided.
 (https://developer.mozilla.org/en-US/docs/Web/CSS/filter).
 -------------------------------------------------- */
 	#keyword div:nth-of-type(1) {
-		background-color: red;
-	}
+		background-color: saddlebrown;
+		filter: brightness(0.9) saturate(0.8);
+}
+
+#keyword div:nth-of-type(2) {
+	background-color: darkorange;
+	filter: brightness(1.1) saturate(0.9);
+}
+#keyword div:nth-of-type(3){
+	background-color: orangered;
+	filter: brightness(1.2) saturate(1.1);
+}
+#keyword div:nth-of-type(4) {
+	background-color: peru;
+	filter: brightness(1.2) saturate(1.1);
+}
 	/* ...and so on... */
 
 	/* STEP 5: Describe one or more things that you can do to ensure that the colour rendering on your screen is exactly the same (or as close as possible) to the colours on your paint chip cards. If possible, attempt to do one or more of these things and describe what you did and what you found out. Maybe a screenshot, too if it might help. */
@@ -66,61 +99,61 @@ produce an exact rendition of the swatch colors on the FOURTH card provided.
 		<section id="hex">
 			<h2>Hexadecimal</h2>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Pure Yellow</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Lemon Spritz</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Yelow Diamond</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Royal Flower</h3>
 			</div>
 		</section>
 		<section id="rgba">
 			<h2>RGB(A)</h2>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Sangria</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Rosedust</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Raspberry Kiss</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Saskatoon</h3>
 			</div>
 		</section>
 		<section id="hsla">
 			<h2>HSL(A)</h2>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Be Royal</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Lavender Sachet</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Plum in the Parlor</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Roaring Violet</h3>
 			</div>
 		</section>
 		<section id="keyword">
 			<h2>Keyword / CSS Filter</h2>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Deep Russet</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Kaleidoscope</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Fiesta Orange</h3>
 			</div>
 			<div>
-				<h3>Type colour name here</h3>
+				<h3>Harest Spice</h3>
 			</div>
 		</section>
 	</main>
